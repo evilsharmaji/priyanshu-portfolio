@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyanshu Sharma | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+  <div id="c-dot"></div>
+  <div id="c-ring"></div>
+  <div id="sprog"></div>
+
+  <!-- ══ NAVBAR — original ══ -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">RR.</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Works</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#achievements">Coding Platforms</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="https://wa.link/w5yrms" class="nav-hire">Hire Me</a>
+    <button class="hamburger" id="ham" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ══ HOME ══ -->
+  <section id="home">
+    <div class="mesh-bg">
+      <div class="mesh-blob b1"></div>
+      <div class="mesh-blob b2"></div>
+      <div class="mesh-blob b3"></div>
+    </div>
+    <div class="grid-lines"></div>
+
+    <div class="wrap">
+      <div class="home-inner">
+
+        <div class="home-left">
+          <div class="h-avail"><span class="pulse"></span>Available for Opportunities</div>
+          <p class="h-hi">Hi There 👋</p>
+          <h1 class="h-name">I'm <span class="grad">Priyanshu<br>Sharma</span></h1>
+          <p class="h-role"><span id="typer"></span><span class="h-cursor">|</span></p>
+          <p class="h-desc">
+            B.Tech CSE student at Lovely Professional University Punjab , passionate about Data Science, Machine Learning &amp; AI, continuously learning and exploring modern technologies to build solutions for real-world problems.
+            </p>
+          <div class="h-btns">
+            <a href="#about" class="btn btn-fill"><span><i class="fas fa-user-astronaut" style="margin-right:.5rem"></i>Discover Me</span></a>
+            <a href="#certificates" class="btn btn-ghost"><i class="fas fa-compass" style="margin-right:.5rem"></i>Explore More</a>
+          </div>
+          <div class="h-socials">
+            <a href="https://www.linkedin.com/in/priyanshusharma005/" target="_blank" rel="noopener" class="li" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/evilsharmaji" target="_blank" rel="noopener" class="gh" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.behance.net/priyanshusharma5" target="_blank" rel="noopener" class="be" title="Behance"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+
+        <!-- RIGHT: bigger photo + info badges -->
+        <div class="home-right">
+          <div class="orbit-wrap">
+            <div class="orbit-ring r1"><div class="orbit-dot"></div></div>
+            <div class="orbit-ring r2"><div class="orbit-dot od2"></div></div>
+          </div>
+          <div class="photo-frame" id="photoBox">
+            <div class="frame-glow"></div>
+            <div class="photo">
+              <img id="heroImg" src="mine.jpg" alt="Priyanshu Sharma" onerror="this.style.display='none'">
+            </div>
+            <!-- Badges around photo -->
+            <div class="badge badge-open"><i class="fas fa-circle-check"></i><span>Open to Work</span></div>
+            <div class="badge badge-projects"><div class="bn">6+</div><div class="bl">Projects</div></div>
+            
+            </div>
+        </div>
+
+      </div>
+
+      <!-- Marquee strip -->
+      <div class="marquee-wrap">
+        <div class="marquee-track">
+          <span>Data Science</span><span class="msep">✦</span>
+          <span>C++</span><span class="msep">✦</span>
+          <span>Machine Learning</span><span class="msep">✦</span>
+          <span>Linux</span><span class="msep">✦</span>
+          <span>Python</span><span class="msep">✦</span>
+          <span>Power BI</span><span class="msep">✦</span>
+          <span>SQL</span><span class="msep">✦</span>
+          <span>Excel</span><span class="msep">✦</span>
+          <span>Data Science</span><span class="msep">✦</span>
+          <span>C++</span><span class="msep">✦</span>
+          <span>Machine Learning</span><span class="msep">✦</span>
+          <span>Linux</span><span class="msep">✦</span>
+          <span>Python</span><span class="msep">✦</span>
+          <span>Power BI</span><span class="msep">✦</span>
+          <span>SQL</span><span class="msep">✦</span>
+          <span>Excel</span><span class="msep">✦</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ ABOUT ══ -->
+  <section id="about">
+    <div class="wrap">
+      <div class="about-g">
+        <div class="about-img rev">
+          <img src="mine.jpg" alt="Priyanshu Sharma" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="about-img-ph" style="display:none"><i class="fas fa-user-graduate"></i></div>
+          <div class="about-loc-tag"><i class="fas fa-map-marker-alt"></i> LPU, Phagwara</div>
+        </div>
+        <div class="rev">
+          <div class="sec-tag">Who I Am</div>
+          <div class="aline"></div>
+          <p class="abody">Hello! My name is Priyanshu Sharma, and I am a CSE student at Lovely Professional University (LPU), Phagwara. I am passionate about learning new technologies, solving real-world problems, and working on creative projects.</p>
+          <p class="abody">I specialize in Data Science, Machine Learning & AI. I love crafting clean, efficient code and keeping myself updated with the latest trends in tech.</p>
+          <div class="astats">
+            <div class="astat"><div class="n" data-count="6">0</div><div class="plus">+</div><div class="l">Projects</div></div>
+            <div class="astat"><div class="n" data-count="3">0</div><div class="plus">+</div><div class="l">Years</div></div>
+            <div class="astat"><div class="n" data-count="10">0</div><div class="plus">+</div><div class="l">Skills</div></div>
+          </div>
+          <a href="CV_final.pdf" download="CV_final.pdf" class="btn btn-fill" style="margin-top:.5rem">
+            <span><i class="fas fa-download" style="margin-right:.5rem"></i>Download Resume</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SKILLS ══ -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="rev" style="text-align:center;margin-bottom:3rem">
+        <div class="sec-tag" style="justify-content:center">Tech Stack</div>
+        <h2 class="sec-h"><span class="grad-txt">Skills</span></h2>
+      </div>
+      <div class="sk-layout">
+        <div class="sk-list rev">
+          <div class="sk-pills">
+            <div class="sk-pill pill-html"><span class="sp-ico">🌐</span><span class="sp-nm">HTML</span></div>
+            <div class="sk-pill pill-css"><span class="sp-ico">🎨</span><span class="sp-nm">CSS</span></div>
+            <div class="sk-pill pill-js"><span class="sp-ico">⚡</span><span class="sp-nm">JavaScript</span></div>
+          </div>
+          <div class="sk-card">
+            <div class="sk-card-ico">⚙️</div>
+            <div class="sk-card-info">
+              <div class="sk-card-name">C++</div>
+              <div class="sk-card-dots"><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd half"></span><span class="sd"></span></div>
+            </div>
+            <div class="sk-card-lvl">Advance</div>
+          </div>
+          <div class="sk-card">
+            <div class="sk-card-ico">☕</div>
+            <div class="sk-card-info">
+              <div class="sk-card-name">Java</div>
+              <div class="sk-card-dots"><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd"></span><span class="sd"></span></div>
+            </div>
+            <div class="sk-card-lvl">Intermediate</div>
+          </div>
+          <div class="sk-card">
+            <div class="sk-card-ico">🐍</div>
+            <div class="sk-card-info">
+              <div class="sk-card-name">Python</div>
+              <div class="sk-card-dots"><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd half"></span></div>
+            </div>
+            <div class="sk-card-lvl">Intermediate</div>
+          </div>
+          <div class="sk-card">
+            <div class="sk-card-ico">🐧</div>
+            <div class="sk-card-info">
+              <div class="sk-card-name">Linux</div>
+              <div class="sk-card-dots"><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd half"></span></div>
+            </div>
+            <div class="sk-card-lvl">Intermediate</div>
+          </div>
+          <div class="sk-card">
+            <div class="sk-card-ico">🗄️</div>
+            <div class="sk-card-info">
+              <div class="sk-card-name">DBMS &amp; SQL</div>
+              <div class="sk-card-dots"><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd half"></span><span class="sd"></span></div>
+            </div>
+            <div class="sk-card-lvl">Basic</div>
+          </div>
+          
+          <div class="sk-card">
+            <div class="sk-card-ico">📊</div>
+            <div class="sk-card-info">
+              <div class="sk-card-name">Power BI</div>
+              <div class="sk-card-dots"><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd"></span></div>
+            </div>
+            <div class="sk-card-lvl">Intermediate</div>
+          </div>
+          <div class="sk-card">
+            <div class="sk-card-ico">📋</div>
+            <div class="sk-card-info">
+              <div class="sk-card-name">Excel</div>
+              <div class="sk-card-dots"><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd on"></span><span class="sd half"></span></div>
+            </div>
+            <div class="sk-card-lvl">Intermediate</div>
+          </div>
+        </div>
+        <div class="sk-img-wrap rev">
+          <div class="sk-img-scene">
+            <div class="sk-corner tl"></div>
+            <div class="sk-corner tr"></div>
+            <div class="sk-corner bl"></div>
+            <div class="sk-corner br"></div>
+            <img src="work7.jpg" alt="Skills" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+            <div class="sk-img-ph"><i class="fas fa-laptop-code"></i></div>
+            <div class="sk-scan-line"></div>
+            <div class="sk-img-overlay">
+              <div class="sk-overlay-tag"><i class="fas fa-fire"></i> 9+ Skills</div>
+              <div class="sk-overlay-tag sk-tag2"><i class="fas fa-code"></i> Data Science</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ WORK ══ -->
+  <section id="work">
+    <div class="wrap">
+      <div class="rev" style="text-align:center">
+        <div class="sec-tag" style="justify-content:center">Portfolio</div>
+        <h2 class="sec-h"><span class="grad-txt">Works</span></h2>
+      </div>
+      <div class="wk-g">
+        <a class="wk-c rev" href="https://evilsharmaji.github.io/data-Structure-visualizer/" target="_blank" rel="noopener">
+          <div class="wk-img"><img src="work1.png" alt="Data Structure Visualizer" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"><div class="wk-ph p1" style="display:none"><i class="fas fa-plane"></i></div><div class="wk-ov"><div class="wk-links"><span><i class="fas fa-external-link-alt"></i></span><span><i class="fab fa-github"></i></span></div></div></div>
+          <div class="wk-info"><div class="wk-title">Data Structure Visualizer</div><div class="wk-tags"><span class="wk-tag">HTML5</span><span class="wk-tag">CSS3</span><span class="wk-tag">JS6</span></div></div>
+        </a>
+        <a class="wk-c rev" href="https://github.com/evilsharmaji/Traffic-sign-detection" target="_blank" rel="noopener">
+          <div class="wk-img"><img src="work2.png" alt="Traffic Sign Detection" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"><div class="wk-ph p2" style="display:none"><i class="fas fa-shipping-fast"></i></div><div class="wk-ov"><div class="wk-links"><span><i class="fas fa-external-link-alt"></i></span><span><i class="fab fa-github"></i></span></div></div></div>
+          <div class="wk-info"><div class="wk-title">Traffic Sign Detection</div><div class="wk-tags"><span class="wk-tag">RoboFlow</span><span class="wk-tag">Bounding Box Labeling</span></div></div>
+        </a>
+        <a class="wk-c rev" href="https://github.com/evilsharmaji/LVM-With-Disk-Mang.-Acl-Config." target="_blank" rel="noopener">
+          <div class="wk-img"><img src="work3.png" alt="Logical Volume Management" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"><div class="wk-ph p3" style="display:none"><i class="fas fa-book"></i></div><div class="wk-ov"><div class="wk-links"><span><i class="fas fa-external-link-alt"></i></span><span><i class="fab fa-github"></i></span></div></div></div>
+          <div class="wk-info"><div class="wk-title">Logical Volume Management</div><div class="wk-tags"><span class="wk-tag">Linux(Ubuntu)</span><span class="wk-tag">ACL Config.</span><span class="wk-tag">Shell Commands</span></div></div>
+        </a>
+        <a class="wk-c rev" href="https://github.com/evilsharmaji/sport-diet-advisor" target="_blank" rel="noopener">
+          <div class="wk-img"><img src="work4.png" alt="Sport Diet Advisor AI Chatbot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"><div class="wk-ph p4" style="display:none"><i class="fas fa-chart-bar"></i></div><div class="wk-ov"><div class="wk-links"><span><i class="fas fa-external-link-alt"></i></span><span><i class="fab fa-github"></i></span></div></div></div>
+          <div class="wk-info"><div class="wk-title">Sport Diet Advisor AI Chatbot</div><div class="wk-tags"><span class="wk-tag">Python</span><span class="wk-tag">NLP Libraries</span><span class="wk-tag">OpenAI API</span></div></div>
+        </a>
+        <a class="wk-c rev" href="https://github.com/evilsharmaji/Indian-Unicorn-Startups-" target="_blank" rel="noopener">
+          <div class="wk-img"><img src="work5.png" alt="Indian Unicorn Startups" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"><div class="wk-ph p5" style="display:none"><i class="fas fa-table"></i></div><div class="wk-ov"><div class="wk-links"><span><i class="fas fa-external-link-alt"></i></span><span><i class="fab fa-github"></i></span></div></div></div>
+          <div class="wk-info"><div class="wk-title">Indian Unicorn Startups</div><div class="wk-tags"><span class="wk-tag">Excel</span><span class="wk-tag">Data Visualization tools</span></div></div>
+        </a>
+        <a class="wk-c rev" href="https://github.com/evilsharmaji/Supervised-Learning-for-Real-Time-Phishing-Website-detection" target="_blank" rel="noopener">
+          <div class="wk-img"><img src="work6.png" alt="Phishing Website Detection" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"><div class="wk-ph p6" style="display:none"><i class="fas fa-brain"></i></div><div class="wk-ov"><div class="wk-links"><span><i class="fas fa-external-link-alt"></i></span><span><i class="fab fa-github"></i></span></div></div></div>
+          <div class="wk-info"><div class="wk-title">Phishing Website Detection</div><div class="wk-tags"><span class="wk-tag">Python</span><span class="wk-tag">Scikit-Learn</span><span class="wk-tag">Pandas</span><span class="wk-tag">Jupyter</span></div></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CERTIFICATES ══ -->
+  <section id="certificates">
+    <div class="wrap">
+      <div class="rev" style="text-align:center;margin-bottom:3rem">
+        <div class="sec-tag" style="justify-content:center">Credentials</div>
+        <h2 class="sec-h"><span class="grad-txt">Certificates</span></h2>
+        <p style="color:var(--muted);font-size:.9rem;margin-top:.4rem">Click any certificate to view full size</p>
+      </div>
+
+      <!-- Fan stack — z-index managed fully in JS -->
+      <div class="cert-stack-wrap rev">
+        <div class="cert-card" id="cc0" onclick="cardClick(0,'infosys-certificate.png','Infosys Certificate')">
+          <div class="cert-inner">
+            <div class="cert-ph"><i class="fas fa-award"></i><span>Infosys Certificate</span></div>
+            <img src="infosys-certificate.png" alt="Infosys Certificate" onerror="this.style.opacity='0'">
+            <div class="cert-overlay"><i class="fas fa-expand"></i><span>View Full</span></div>
+          </div>
+          <div class="cert-label">Infosys Certificate</div>
+        </div>
+        <div class="cert-card" id="cc1" onclick="cardClick(1,'lpu-certificate.png','LPU Certificate')">
+          <div class="cert-inner">
+            <div class="cert-ph"><i class="fas fa-award"></i><span>LPU Certificate</span></div>
+            <img src="lpu-certificate.png" alt="LPU Certificate" onerror="this.style.opacity='0'">
+            <div class="cert-overlay"><i class="fas fa-expand"></i><span>View Full</span></div>
+          </div>
+          <div class="cert-label">LPU Certificate</div>
+        </div>
+        <div class="cert-card" id="cc2" onclick="cardClick(2,'nptel-certificate.png','NPTEL Certificate')">
+          <div class="cert-inner">
+            <div class="cert-ph"><i class="fas fa-award"></i><span>NPTEL Certificate</span></div>
+            <img src="nptel-certificate.png" alt="NPTEL Certificate" onerror="this.style.opacity='0'">
+            <div class="cert-overlay"><i class="fas fa-expand"></i><span>View Full</span></div>
+          </div>
+          <div class="cert-label">NPTEL Certificate</div>
+        </div>
+        <div class="cert-card" id="cc3" onclick="cardClick(3,'coursera-certificate.png','Coursera Certificate')">
+          <div class="cert-inner">
+            <div class="cert-ph"><i class="fas fa-award"></i><span>Coursera Certificate</span></div>
+            <img src="coursera-certificate.png" alt="Coursera Certificate" onerror="this.style.opacity='0'">
+            <div class="cert-overlay"><i class="fas fa-expand"></i><span>View Full</span></div>
+          </div>
+          <div class="cert-label">Coursera Certificate</div>
+        </div>
+        <div class="cert-card" id="cc4" onclick="cardClick(4,'Bskilling-certificate.png','Bskilling Certificate')">
+          <div class="cert-inner">
+            <div class="cert-ph"><i class="fas fa-award"></i><span>Bskilling Certificate</span></div>
+            <img src="Bskilling-certificate.png" alt="Bskilling Certificate" onerror="this.style.opacity='0'">
+            <div class="cert-overlay"><i class="fas fa-expand"></i><span>View Full</span></div>
+          </div>
+          <div class="cert-label">Bskilling Certificate</div>
+        </div>
+      </div>
+
+      <!-- Nav buttons — BELOW the stack with enough margin so never hidden under cards -->
+      <div class="cert-nav">
+        <button class="cert-nav-btn active" onclick="bringToFront(0)">
+          <span class="cnb-dot"></span><span class="cnb-lbl">Infosys</span>
+        </button>
+        <button class="cert-nav-btn" onclick="bringToFront(1)">
+          <span class="cnb-dot"></span><span class="cnb-lbl">LPU</span>
+        </button>
+        <button class="cert-nav-btn" onclick="bringToFront(2)">
+          <span class="cnb-dot"></span><span class="cnb-lbl">NPTEL</span>
+        </button>
+        <button class="cert-nav-btn" onclick="bringToFront(3)">
+          <span class="cnb-dot"></span><span class="cnb-lbl">Coursera</span>
+        </button>
+        <button class="cert-nav-btn" onclick="bringToFront(4)">
+          <span class="cnb-dot"></span><span class="cnb-lbl">Bskilling</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="certLightbox" class="cert-lightbox" onclick="closeCert()">
+    <div class="cert-lb-inner" onclick="event.stopPropagation()">
+      <button class="cert-lb-close" onclick="closeCert()"><i class="fas fa-times"></i></button>
+      <img id="certLbImg" src="" alt="">
+      <div id="certLbTitle" class="cert-lb-title"></div>
+    </div>
+  </div>
+
+  <!-- ══ Coding Platforms ══ -->
+  <section id="achievements">
+    <div class="wrap">
+      <div class="rev" style="text-align:center">
+        <div class="sec-tag" style="justify-content:center">Milestones</div>
+        <h2 class="sec-h"><span class="grad-txt">Coding Platforms</span></h2>
+      </div>
+      <div class="ach-g">
+        <a class="ach-c rev" href="https://leetcode.com/u/priyansh_Ashu/" target="_blank" rel="noopener">
+          <div class="ach-ico"><i class="fas fa-globe"></i></div>
+          <div><div class="ach-title">LeetCode <i class="fas fa-arrow-right" style="font-size:.75rem;margin-left:.4rem;color:var(--teal)"></i></div><div class="ach-desc">Solved DSA problems regularly, improving problem-solving skills and understanding of algorithms and data structures.</div></div>
+        </a>
+        <a class="ach-c rev" href="https://www.geeksforgeeks.org/profile/evilsharmaji" target="_blank" rel="noopener">
+          <div class="ach-ico"><i class="fas fa-robot"></i></div>
+          <div><div class="ach-title">GfG<i class="fas fa-arrow-right" style="font-size:.75rem;margin-left:.4rem;color:var(--teal)"></i></div><div class="ach-desc">Learning Practiced core computer science concepts and DSA problems, strengthening fundamentals through structured learning.</div></div>
+        </a>
+        <a class="ach-c rev" href="https://www.hackerrank.com/profile/evilsharmaji" target="_blank" rel="noopener">
+          <div class="ach-ico"><i class="fas fa-code"></i></div>
+          <div><div class="ach-title">HackerRank <i class="fas fa-arrow-right" style="font-size:.75rem;margin-left:.4rem;color:var(--teal)"></i></div><div class="ach-desc">Completing coding challenges and certification, enhancing problem-solving skills across multiple domains.</div></div>
+        </a>
+        <a class="ach-c rev" href="https://www.codechef.com/users/evilsharmaji" target="_blank" rel="noopener">
+          <div class="ach-ico"><i class="fas fa-database"></i></div>
+          <div><div class="ach-title">CodeChef<i class="fas fa-arrow-right" style="font-size:.75rem;margin-left:.4rem;color:var(--teal)"></i></div><div class="ach-desc">Participated in competitive programming contests, improving coding speed, logic, and real-time problem-solving ability.</div></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CONTACT ══ -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="rev" style="text-align:center">
+        <div class="sec-tag" style="justify-content:center">Get In Touch</div>
+        <h2 class="sec-h">Contact <span class="grad-txt">Me</span></h2>
+      </div>
+      <div class="con-g">
+        <div class="rev">
+          <p style="color:var(--muted);line-height:1.82;margin-bottom:2rem">I'm currently open to new opportunities. Whether you have a project, a question, or just want to say hello — my inbox is always open.</p>
+          <a href="mailto:sharmaji.pitangwer@gmail.com" class="con-link"><div class="con-ico"><i class="fas fa-envelope"></i></div><span>sharmaji.pitangwer@gmail.com</span></a>
+          <a href="https://www.linkedin.com/in/priyanshusharma005/" target="_blank" rel="noopener" class="con-link"><div class="con-ico"><i class="fab fa-linkedin-in"></i></div><span>linkedin.com/in/priyanshusharma005</span></a>
+          <a href="https://wa.link/w5yrms" target="_blank" rel="noopener" class="con-link"><div class="con-ico"><i class="fab fa-whatsapp"></i></div><span>wa.link/w5yrms</span></a>
+        </div>
+        <div class="c-form rev">
+          <div class="c-row">
+            <div class="c-grp"><label>Your Name</label><input type="text" id="cf-name" placeholder="Your name"></div>
+            <div class="c-grp"><label>Email</label><input type="email" id="cf-email" placeholder="you@email.com"></div>
+          </div>
+          <div class="c-grp"><label>Subject</label><input type="text" id="cf-subj" placeholder="Project Collaboration"></div>
+          <div class="c-grp"><label>Message</label><textarea id="cf-msg" placeholder="Hi Priyanshu, I'd love to work with you on..."></textarea></div>
+          <button class="btn btn-fill" style="border:none;cursor:none" onclick="handleSend(this)">
+            <span><i class="fas fa-paper-plane" style="margin-right:.5rem"></i>Send Message</span>
+          </button>
+          <p style="font-size:.75rem;color:var(--muted);margin-top:.5rem"><i class="fas fa-info-circle" style="margin-right:.3rem"></i>Opens your mail app · sends to sharmaji.pitangwer@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER — no RR, tagline as hero, insta/fb/x centered ══ -->
+  <footer>
+    <div class="f-tagline-big">Crafting <span>Digital</span> Experiences</div>
+    <div class="f-divider"></div>
+    <div class="f-copy">&copy; 2026 Priyanshu | My Portfolio &middot; All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
